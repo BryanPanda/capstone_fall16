@@ -119,9 +119,9 @@ if (shootKey &amp;&amp; cooldown == false){
 }
 
 if (SpdUKey == true){
-    spd = 5;
+    spd = 14;
 } else {
-        spd = 8;
+        spd = 6;
     }
 </string>
           </argument>
