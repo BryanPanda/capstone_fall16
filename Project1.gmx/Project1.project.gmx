@@ -13,9 +13,18 @@
     <sprite>sprites\enemy2</sprite>
     <sprite>sprites\bullet2</sprite>
     <sprite>sprites\bullet3</sprite>
+    <sprites name="menu">
+      <sprite>sprites\spr_title</sprite>
+      <sprite>sprites\spr_back</sprite>
+      <sprite>sprites\spr_score</sprite>
+      <sprite>sprites\spr_option</sprite>
+      <sprite>sprites\spr_exit</sprite>
+      <sprite>sprites\spr_start</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\bk_menu</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -27,8 +36,19 @@
     <object>objects\oenemy2</object>
     <object>objects\obullet2</object>
     <object>objects\obullet3</object>
+    <objects name="menu">
+      <object>objects\obj_title</object>
+      <object>objects\obj_start</object>
+      <object>objects\obj_option</object>
+      <object>objects\obj_score</object>
+      <object>objects\obj_exit</object>
+      <object>objects\obj_back</object>
+    </objects>
+    <object>objects\obj_control</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_menu</room>
+    <room>rooms\rm_option</room>
     <room>rooms\Stage1</room>
   </rooms>
   <help>
