@@ -11,7 +11,6 @@
     <sprite>sprites\explode</sprite>
     <sprite>sprites\enemy1</sprite>
     <sprite>sprites\enemy2</sprite>
-
     <sprites name="menu">
       <sprite>sprites\spr_title</sprite>
       <sprite>sprites\spr_start</sprite>
@@ -20,7 +19,6 @@
       <sprite>sprites\spr_exit</sprite>
       <sprite>sprites\spr_back</sprite>
     </sprites>
-
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -34,7 +32,6 @@
     <object>objects\object3</object>
     <object>objects\oenemy1</object>
     <object>objects\oenemy2</object>
-
     <objects name="menu">
       <object>objects\onj_title</object>
       <object>objects\obj_start</object>
@@ -44,7 +41,6 @@
       <object>objects\obj_back</object>
     </objects>
     <object>objects\obj_control</object>
-
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>

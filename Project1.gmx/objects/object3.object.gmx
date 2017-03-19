@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>spawn_rate = 110;
+            <string>spawn_rate = 90;
 
 alarm[0] = spawn_rate;
 </string>
