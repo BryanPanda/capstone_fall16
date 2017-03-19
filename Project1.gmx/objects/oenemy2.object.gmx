@@ -67,42 +67,6 @@ if (place_meeting(x, y, oPlayer)){
       </action>
       <action>
         <libid>1</libid>
-        <id>206</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_create_object_motion</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>10</kind>
-            <object>obullet</object>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>6</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>point_direction(self.x,self.y,oPlayer.x,oPlayer.y)</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>405</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -121,63 +85,41 @@ if (place_meeting(x, y, oPlayer)){
           </argument>
         </arguments>
       </action>
-    </event>
-    <event eventtype="4" ename="obullet">
       <action>
         <libid>1</libid>
-        <id>701</id>
+        <id>206</id>
         <kind>0</kind>
         <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_score</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>-1</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>10</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="oPlayer">
-      <action>
-        <libid>1</libid>
-        <id>721</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_health</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>-1</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>-30</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>203</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_kill_object</functionname>
+        <functionname>action_create_object_motion</functionname>
         <codestring></codestring>
-        <whoName>oenemy2</whoName>
-        <relative>0</relative>
+        <whoName>self</whoName>
+        <relative>-1</relative>
         <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>10</kind>
+            <object>obullet3</object>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>6</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>point_direction(self.x, self.y, oPlayer.x, oPlayer.y)</string>
+          </argument>
+        </arguments>
       </action>
     </event>
   </events>
