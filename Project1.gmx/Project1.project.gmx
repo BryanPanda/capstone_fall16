@@ -11,18 +11,11 @@
     <sprite>sprites\explode</sprite>
     <sprite>sprites\enemy1</sprite>
     <sprite>sprites\enemy2</sprite>
-    <sprites name="menu">
-      <sprite>sprites\spr_title</sprite>
-      <sprite>sprites\spr_start</sprite>
-      <sprite>sprites\spr_option</sprite>
-      <sprite>sprites\spr_scores</sprite>
-      <sprite>sprites\spr_exit</sprite>
-      <sprite>sprites\spr_back</sprite>
-    </sprites>
+    <sprite>sprites\bullet2</sprite>
+    <sprite>sprites\bullet3</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
-    <background>background\bk_menu</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -32,19 +25,10 @@
     <object>objects\object3</object>
     <object>objects\oenemy1</object>
     <object>objects\oenemy2</object>
-    <objects name="menu">
-      <object>objects\onj_title</object>
-      <object>objects\obj_start</object>
-      <object>objects\obj_option</object>
-      <object>objects\obj_scores</object>
-      <object>objects\obj_exit</object>
-      <object>objects\obj_back</object>
-    </objects>
-    <object>objects\obj_control</object>
+    <object>objects\obullet2</object>
+    <object>objects\obullet3</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_menu</room>
-    <room>rooms\rm_option</room>
     <room>rooms\Stage1</room>
   </rooms>
   <help>
