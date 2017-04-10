@@ -11,6 +11,9 @@
     <sprite>sprites\explode</sprite>
     <sprite>sprites\enemy1</sprite>
     <sprite>sprites\enemy2</sprite>
+    <sprite>sprites\enemy3</sprite>
+    <sprite>sprites\enemy4</sprite>
+    <sprite>sprites\boss1</sprite>
     <sprite>sprites\bullet2</sprite>
     <sprite>sprites\bullet3</sprite>
     <sprites name="menu">
@@ -34,6 +37,9 @@
     <object>objects\object3</object>
     <object>objects\oenemy1</object>
     <object>objects\oenemy2</object>
+    <object>objects\oenemy4</object>
+    <object>objects\oenemy3</object>
+    <object>objects\oboss1</object>
     <object>objects\obullet2</object>
     <object>objects\obullet3</object>
     <objects name="menu">
@@ -46,6 +52,11 @@
     </objects>
     <object>objects\obj_control</object>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\timeline0</timeline>
+    <timeline>timelines\timeline1</timeline>
+    <timeline>timelines\timeline2</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_option</room>
