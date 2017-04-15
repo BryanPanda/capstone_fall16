@@ -7,10 +7,10 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>13</bbox_left>
-  <bbox_right>78</bbox_right>
-  <bbox_top>13</bbox_top>
-  <bbox_bottom>72</bbox_bottom>
+  <bbox_left>11</bbox_left>
+  <bbox_right>76</bbox_right>
+  <bbox_top>17</bbox_top>
+  <bbox_bottom>76</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -20,8 +20,8 @@
   <width>90</width>
   <height>90</height>
   <frames>
-    <frame index="0">images\enemy2_0.png</frame>
-    <frame index="1">images\enemy2_1.png</frame>
-    <frame index="2">images\enemy2_2.png</frame>
+    <frame index="0">images\enemy4_0.png</frame>
+    <frame index="1">images\enemy4_1.png</frame>
+    <frame index="2">images\enemy4_2.png</frame>
   </frames>
 </sprite>

@@ -50,7 +50,7 @@ vspeed = choose(3,5);
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>4</string>
+            <string>-4</string>
           </argument>
         </arguments>
       </action>
@@ -113,11 +113,11 @@ if (random(30)&lt;1){
           </argument>
           <argument>
             <kind>0</kind>
-            <string>room_height</string>
+            <string>0</string>
           </argument>
           <argument>
             <kind>4</kind>
-            <string>2</string>
+            <string>1</string>
           </argument>
         </arguments>
       </action>
