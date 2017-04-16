@@ -8,11 +8,14 @@
   <sprites name="sprites">
     <sprite>sprites\SShip</sprite>
     <sprite>sprites\bullet</sprite>
+    <sprite>sprites\bullet3</sprite>
+    <sprite>sprites\bullet2</sprite>
     <sprite>sprites\bullet4</sprite>
     <sprite>sprites\bullet5</sprite>
+    <sprite>sprites\bullet6</sprite>
+    <sprite>sprites\bullet6_left</sprite>
+    <sprite>sprites\bullet6_right</sprite>
     <sprite>sprites\explode</sprite>
-    <sprite>sprites\bullet2</sprite>
-    <sprite>sprites\bullet3</sprite>
     <sprites name="menu">
       <sprite>sprites\spr_title</sprite>
       <sprite>sprites\spr_back</sprite>
@@ -37,6 +40,8 @@
     </sprites>
     <sprites name="stage3">
       <sprite>sprites\s3_enemy1</sprite>
+      <sprite>sprites\s3_enemy1_left</sprite>
+      <sprite>sprites\s3_enemy1_right</sprite>
       <sprite>sprites\s3_enemy2</sprite>
       <sprite>sprites\s3_enemy2_left</sprite>
       <sprite>sprites\s3_enemy2_right</sprite>
@@ -63,6 +68,9 @@
     <object>objects\obullet3_2</object>
     <object>objects\obullet4</object>
     <object>objects\obullet5</object>
+    <object>objects\obullet6</object>
+    <object>objects\obullet6_left</object>
+    <object>objects\obullet6_right</object>
     <objects name="stage1">
       <object>objects\oenemy1</object>
       <object>objects\oenemy2</object>
@@ -81,10 +89,13 @@
     </objects>
     <objects name="stage3">
       <object>objects\s3_oenemy1</object>
+      <object>objects\s3_oenemy1_left</object>
+      <object>objects\s3_oenemy1_right</object>
       <object>objects\s3_oenemy2</object>
       <object>objects\s3_oenemy2_left</object>
       <object>objects\s3_oenemy2_right</object>
       <object>objects\s3_oenemy2_bigcircle_bullet</object>
+      <object>objects\s3_oenemy2_circle_bullet</object>
       <object>objects\s3_oboss</object>
     </objects>
     <objects name="menu">
@@ -117,6 +128,8 @@
     <timelines name="stage3">
       <timeline>timelines\s3_tRandom</timeline>
       <timeline>timelines\s3_tSquare</timeline>
+      <timeline>timelines\s3_tArray</timeline>
+      <timeline>timelines\s3_tBoss</timeline>
     </timelines>
   </timelines>
   <rooms name="rooms">

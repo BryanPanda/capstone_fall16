@@ -65,7 +65,7 @@
         <arguments>
           <argument>
             <kind>14</kind>
-            <timeline>s3_tRandom</timeline>
+            <timeline>s3_tSquare</timeline>
           </argument>
           <argument>
             <kind>0</kind>
@@ -97,7 +97,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>1350</string>
+            <string>900</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -123,7 +123,7 @@
         <arguments>
           <argument>
             <kind>14</kind>
-            <timeline>s2_tBoss</timeline>
+            <timeline>s3_tBoss</timeline>
           </argument>
           <argument>
             <kind>0</kind>
@@ -143,26 +143,6 @@
     <event eventtype="2" enumb="1">
       <action>
         <libid>1</libid>
-        <id>224</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_another_room</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>11</kind>
-            <room>rm_menu</room>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>305</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -177,7 +157,7 @@
         <arguments>
           <argument>
             <kind>14</kind>
-            <timeline>s2_tSquare</timeline>
+            <timeline>s3_tArray</timeline>
           </argument>
           <argument>
             <kind>0</kind>
@@ -235,7 +215,7 @@
         <arguments>
           <argument>
             <kind>14</kind>
-            <timeline>s3_tSquare</timeline>
+            <timeline>s3_tRandom</timeline>
           </argument>
           <argument>
             <kind>0</kind>

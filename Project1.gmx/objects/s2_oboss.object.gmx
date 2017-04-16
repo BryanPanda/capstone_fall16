@@ -501,7 +501,7 @@
         <exetype>1</exetype>
         <functionname>action_kill_object</functionname>
         <codestring></codestring>
-        <whoName>oboss1</whoName>
+        <whoName>s2_oboss</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
       </action>
@@ -593,7 +593,7 @@
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>oboss1</whoName>
+        <whoName>s2_oboss</whoName>
         <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>
