@@ -9,6 +9,7 @@
     <sprite>sprites\SShip</sprite>
     <sprite>sprites\bullet</sprite>
     <sprite>sprites\bullet4</sprite>
+    <sprite>sprites\bullet5</sprite>
     <sprite>sprites\explode</sprite>
     <sprite>sprites\bullet2</sprite>
     <sprite>sprites\bullet3</sprite>
@@ -37,6 +38,8 @@
     <sprites name="stage3">
       <sprite>sprites\s3_enemy1</sprite>
       <sprite>sprites\s3_enemy2</sprite>
+      <sprite>sprites\s3_enemy2_left</sprite>
+      <sprite>sprites\s3_enemy2_right</sprite>
       <sprite>sprites\s3_enemy3</sprite>
     </sprites>
   </sprites>
@@ -57,7 +60,9 @@
     <object>objects\obullet</object>
     <object>objects\obullet2</object>
     <object>objects\obullet3</object>
+    <object>objects\obullet3_2</object>
     <object>objects\obullet4</object>
+    <object>objects\obullet5</object>
     <objects name="stage1">
       <object>objects\oenemy1</object>
       <object>objects\oenemy2</object>
@@ -77,7 +82,10 @@
     <objects name="stage3">
       <object>objects\s3_oenemy1</object>
       <object>objects\s3_oenemy2</object>
-      <object>objects\s3_oenemy3</object>
+      <object>objects\s3_oenemy2_left</object>
+      <object>objects\s3_oenemy2_right</object>
+      <object>objects\s3_oenemy2_bigcircle_bullet</object>
+      <object>objects\s3_oboss</object>
     </objects>
     <objects name="menu">
       <object>objects\obj_title</object>
@@ -89,6 +97,7 @@
     </objects>
     <objects name="control">
       <object>objects\obj_control_stage2</object>
+      <object>objects\obj_control_stage3</object>
       <object>objects\obj_control</object>
     </objects>
   </objects>
@@ -105,12 +114,17 @@
       <timeline>timelines\s2_tX</timeline>
       <timeline>timelines\s2_tBoss</timeline>
     </timelines>
+    <timelines name="stage3">
+      <timeline>timelines\s3_tRandom</timeline>
+      <timeline>timelines\s3_tSquare</timeline>
+    </timelines>
   </timelines>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_option</room>
     <room>rooms\Stage1</room>
     <room>rooms\Stage2</room>
+    <room>rooms\Stage3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
