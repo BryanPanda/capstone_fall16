@@ -7,6 +7,7 @@
   <sounds name="sound">
     <sound>sound\snd_Explosion1</sound>
     <sound>sound\snd_Explosion2</sound>
+    <sound>sound\snd_explosion3</sound>
     <sound>sound\snd_background</sound>
   </sounds>
   <sprites name="sprites">
@@ -53,10 +54,19 @@
     <sprites name="explosion">
       <sprite>sprites\spr_Explosion1</sprite>
       <sprite>sprites\spr_explosion2</sprite>
+      <sprite>sprites\spr_explosion3</sprite>
+    </sprites>
+    <sprites name="game status">
+      <sprite>sprites\spr_gameover</sprite>
+      <sprite>sprites\spr_try_again</sprite>
+      <sprite>sprites\spr_goback</sprite>
+      <sprite>sprites\spr_victory</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bk_menu</background>
+    <background>background\bk_2</background>
+    <background>background\bk_3</background>
   </backgrounds>
   <paths name="paths">
     <paths name="stage1">
@@ -67,7 +77,9 @@
       <path>paths\pEnemy1Right</path>
     </paths>
   </paths>
-  <fonts name="fonts"/>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+  </fonts>
   <objects name="objects">
     <object>objects\oPlayer</object>
     <object>objects\obullet</object>
@@ -122,6 +134,15 @@
     <objects name="explosion">
       <object>objects\oexplosion1</object>
       <object>objects\oexplosion2</object>
+      <object>objects\oexplosion3</object>
+      <object>objects\oexplosion3_health</object>
+      <object>objects\oexplosion3_lives</object>
+    </objects>
+    <objects name="game status">
+      <object>objects\ogameover</object>
+      <object>objects\ogoback</object>
+      <object>objects\otry_again</object>
+      <object>objects\ovictory</object>
     </objects>
   </objects>
   <timelines name="timelines">
@@ -147,6 +168,8 @@
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_option</room>
+    <room>rooms\rm_gameover</room>
+    <room>rooms\rm_victory</room>
     <room>rooms\Stage1</room>
     <room>rooms\Stage2</room>
     <room>rooms\Stage3</room>
