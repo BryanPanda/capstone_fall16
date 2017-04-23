@@ -4,7 +4,11 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_Explosion1</sound>
+    <sound>sound\snd_Explosion2</sound>
+    <sound>sound\snd_background</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\SShip</sprite>
     <sprite>sprites\bullet</sprite>
@@ -15,7 +19,6 @@
     <sprite>sprites\bullet6</sprite>
     <sprite>sprites\bullet6_left</sprite>
     <sprite>sprites\bullet6_right</sprite>
-    <sprite>sprites\explode</sprite>
     <sprites name="menu">
       <sprite>sprites\spr_title</sprite>
       <sprite>sprites\spr_back</sprite>
@@ -47,6 +50,10 @@
       <sprite>sprites\s3_enemy2_right</sprite>
       <sprite>sprites\s3_enemy3</sprite>
     </sprites>
+    <sprites name="explosion">
+      <sprite>sprites\spr_Explosion1</sprite>
+      <sprite>sprites\spr_explosion2</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bk_menu</background>
@@ -60,6 +67,7 @@
       <path>paths\pEnemy1Right</path>
     </paths>
   </paths>
+  <fonts name="fonts"/>
   <objects name="objects">
     <object>objects\oPlayer</object>
     <object>objects\obullet</object>
@@ -74,9 +82,9 @@
     <objects name="stage1">
       <object>objects\oenemy1</object>
       <object>objects\oenemy2</object>
+      <object>objects\oenemy3</object>
       <object>objects\oenemy4</object>
       <object>objects\oboss1</object>
-      <object>objects\oenemy3</object>
     </objects>
     <objects name="stage2">
       <object>objects\s2_oenemy1</object>
@@ -110,6 +118,10 @@
       <object>objects\obj_control_stage2</object>
       <object>objects\obj_control_stage3</object>
       <object>objects\obj_control</object>
+    </objects>
+    <objects name="explosion">
+      <object>objects\oexplosion1</object>
+      <object>objects\oexplosion2</object>
     </objects>
   </objects>
   <timelines name="timelines">

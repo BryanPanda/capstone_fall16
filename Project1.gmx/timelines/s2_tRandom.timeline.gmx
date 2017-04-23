@@ -43,7 +43,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(room_width)</string>
+            <string>random_range(30, room_width - 30)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -85,7 +85,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(room_width)</string>
+            <string>random_range(30, room_width - 30)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -138,7 +138,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(room_width)</string>
+            <string>random_range(30, room_width - 30)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -180,7 +180,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(room_width)</string>
+            <string>random_range(30, room_width - 30)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -233,7 +233,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(room_width)</string>
+            <string>random_range(30, room_width - 30)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -275,7 +275,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(room_width)</string>
+            <string>random_range(30, room_width - 30)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -328,7 +328,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(room_width)</string>
+            <string>random_range(30, room_width - 30)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -370,7 +370,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(room_width)</string>
+            <string>random_range(30, room_width - 30)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -423,7 +423,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(room_width)</string>
+            <string>random_range(30, room_width - 30)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -465,7 +465,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(room_width)</string>
+            <string>random_range(30, room_width - 30)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -518,7 +518,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(room_width)</string>
+            <string>random_range(30, room_width - 30)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -560,7 +560,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(room_width)</string>
+            <string>random_range(30, room_width - 30)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -613,7 +613,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(room_width)</string>
+            <string>random_range(30, room_width - 30)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -655,7 +655,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(room_width)</string>
+            <string>random_range(30, room_width - 30)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -708,7 +708,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(room_width)</string>
+            <string>random_range(30, room_width - 30)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -750,7 +750,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(room_width)</string>
+            <string>random_range(30, room_width - 30)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -803,7 +803,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(room_width)</string>
+            <string>random_range(30, room_width - 30)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -845,7 +845,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(room_width)</string>
+            <string>random_range(30, room_width - 30)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -898,7 +898,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(room_width)</string>
+            <string>random_range(30, room_width - 30)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -940,7 +940,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(room_width)</string>
+            <string>random_range(30, room_width - 30)</string>
           </argument>
           <argument>
             <kind>0</kind>

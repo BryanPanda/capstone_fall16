@@ -98,13 +98,13 @@ if (rKey) {
     x+=spd;
 }
 
-if (x&lt;=0) {
-    x = room_width-1;
-}else if (x&gt;room_width){
-    x=1;
+if (x&lt;=40) {
+    x = 41;
+}else if (x&gt;room_width-40){
+    x = (room_width-40);
 }
 
-y=clamp(y, 0 + sprite_height/2 ,800);
+y=clamp(y, 0 + sprite_height/2 ,768 - sprite_height/2);
 
 //shooting
 if (shootKey &amp;&amp; cooldown == false){
@@ -121,7 +121,7 @@ if (shootKey &amp;&amp; cooldown == false){
 if (SpdUKey == true){
     spd = 14;
 } else {
-        spd = 6;
+        spd = 14;
     }
 </string>
           </argument>
