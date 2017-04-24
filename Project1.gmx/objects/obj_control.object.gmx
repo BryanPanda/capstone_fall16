@@ -85,7 +85,7 @@
         <arguments>
           <argument>
             <kind>14</kind>
-            <timeline>tBoss</timeline>
+            <timeline>tRandom</timeline>
           </argument>
           <argument>
             <kind>0</kind>
