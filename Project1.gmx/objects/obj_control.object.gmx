@@ -127,25 +127,24 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>211</id>
-        <kind>0</kind>
+        <id>603</id>
+        <kind>7</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_sound</functionname>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>6</kind>
-            <sound>snd_background</sound>
-          </argument>
-          <argument>
-            <kind>3</kind>
-            <string>1</string>
+            <kind>1</kind>
+            <string>if (global.music == true){
+    audio_play_sound(snd_background, 0, true)
+    }
+</string>
           </argument>
         </arguments>
       </action>
@@ -529,7 +528,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>99999</string>
+            <string>999999</string>
           </argument>
         </arguments>
       </action>
@@ -631,17 +630,27 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>203</id>
+        <id>109</id>
         <kind>0</kind>
-        <userelative>0</userelative>
+        <userelative>-1</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_kill_object</functionname>
+        <functionname>action_move_to</functionname>
         <codestring></codestring>
         <whoName>oPlayer</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>448</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>448</string>
+          </argument>
+        </arguments>
       </action>
     </event>
     <event eventtype="7" enumb="6">

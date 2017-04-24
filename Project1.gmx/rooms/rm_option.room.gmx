@@ -52,6 +52,8 @@
   </views>
   <instances>
     <instance objName="obj_back" x="32" y="640" name="inst_251CE5C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_music" x="384" y="224" name="inst_57E1ADE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_yes" x="672" y="224" name="inst_2AC653D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

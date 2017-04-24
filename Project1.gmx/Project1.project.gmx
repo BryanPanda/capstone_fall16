@@ -27,6 +27,9 @@
       <sprite>sprites\spr_option</sprite>
       <sprite>sprites\spr_exit</sprite>
       <sprite>sprites\spr_start</sprite>
+      <sprite>sprites\spr_music</sprite>
+      <sprite>sprites\spr_yes</sprite>
+      <sprite>sprites\spr_no</sprite>
     </sprites>
     <sprites name="stage1">
       <sprite>sprites\enemy1</sprite>
@@ -70,8 +73,9 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bk_menu</background>
-    <background>background\bk_2</background>
     <background>background\bk_3</background>
+    <background>background\bk_4</background>
+    <background>background\bk_2</background>
   </backgrounds>
   <paths name="paths">
     <paths name="stage1">
@@ -130,6 +134,9 @@
       <object>objects\obj_score</object>
       <object>objects\obj_exit</object>
       <object>objects\obj_back</object>
+      <object>objects\obj_music</object>
+      <object>objects\obj_yes</object>
+      <object>objects\obj_no</object>
     </objects>
     <objects name="control">
       <object>objects\obj_control_stage2</object>
