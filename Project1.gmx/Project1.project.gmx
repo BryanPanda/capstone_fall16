@@ -62,6 +62,11 @@
       <sprite>sprites\spr_goback</sprite>
       <sprite>sprites\spr_victory</sprite>
     </sprites>
+    <sprites name="weapon">
+      <sprite>sprites\spr_power_up</sprite>
+      <sprite>sprites\spr_heart</sprite>
+      <sprite>sprites\sp_power</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bk_menu</background>
@@ -143,6 +148,10 @@
       <object>objects\ogoback</object>
       <object>objects\otry_again</object>
       <object>objects\ovictory</object>
+    </objects>
+    <objects name="weapon">
+      <object>objects\opower_up</object>
+      <object>objects\oheart</object>
     </objects>
   </objects>
   <timelines name="timelines">
