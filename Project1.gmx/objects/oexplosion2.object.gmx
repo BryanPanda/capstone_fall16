@@ -65,7 +65,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>2</string>
+            <string>25</string>
           </argument>
         </arguments>
       </action>
@@ -85,7 +85,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>opower_up</object>
+            <object>oheart</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -127,7 +127,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>2</string>
+            <string>25</string>
           </argument>
         </arguments>
       </action>
@@ -147,7 +147,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>oheart</object>
+            <object>opower_up</object>
           </argument>
           <argument>
             <kind>0</kind>
